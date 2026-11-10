@@ -1,0 +1,11 @@
+#Sequência Lógica 2
+
+x, y = map(int, input().split())
+
+for i in range(1, y + 1):
+    print(i, end="")
+
+    if(i == y or i % x == 0):
+        print(end="\n")
+    else:
+        print(end=" ")
